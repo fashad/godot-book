@@ -1,0 +1,214 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Example.tscn" type="PackedScene" id=1]
+[ext_resource path="res://1_UI/UI_1_5_search/search_Result/UI_1_5_serh_Result.gd" type="Script" id=2]
+
+[node name="UI_1_5_serh_Result" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="A_2" type="Control" parent="."]
+margin_right = 370.0
+margin_bottom = 650.0
+
+[node name="A_2" type="VBoxContainer" parent="A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -250.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.01
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="C_1" type="ColorRect" parent="A_2/A_2"]
+margin_right = 370.0
+margin_bottom = 4.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.0352941, 0, 0, 1 )
+
+[node name="A_1" type="Control" parent="A_2/A_2"]
+margin_top = 8.0
+margin_right = 370.0
+margin_bottom = 94.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A_1" type="VBoxContainer" parent="A_2/A_2/A_1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A_1" parent="A_2/A_2/A_1/A_1" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 370.0
+margin_bottom = 65.0
+size_flags_stretch_ratio = 20.0
+
+[node name="PersianLabel" parent="A_2/A_2/A_1/A_1/A_1" index="1"]
+margin_bottom = 100.0
+valign = 1
+
+[node name="A_2" type="Control" parent="A_2/A_2/A_1/A_1"]
+margin_top = 69.0
+margin_right = 370.0
+margin_bottom = 86.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="Label" type="Label" parent="A_2/A_2/A_1/A_1/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "11/100"
+valign = 1
+
+[node name="C_2" type="ColorRect" parent="A_2/A_2"]
+margin_top = 98.0
+margin_right = 370.0
+margin_bottom = 103.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.0352941, 0, 0, 1 )
+
+[node name="A_2" type="Control" parent="A_2/A_2"]
+margin_top = 107.0
+margin_right = 370.0
+margin_bottom = 193.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A_1" type="VBoxContainer" parent="A_2/A_2/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A_1" parent="A_2/A_2/A_2/A_1" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 370.0
+margin_bottom = 65.0
+size_flags_stretch_ratio = 20.0
+
+[node name="PersianLabel" parent="A_2/A_2/A_2/A_1/A_1" index="1"]
+margin_bottom = 100.0
+valign = 1
+
+[node name="A_2" type="Control" parent="A_2/A_2/A_2/A_1"]
+margin_top = 69.0
+margin_right = 370.0
+margin_bottom = 86.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="Label" type="Label" parent="A_2/A_2/A_2/A_1/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "11/100"
+valign = 1
+
+[node name="C_3" type="ColorRect" parent="A_2/A_2"]
+margin_top = 197.0
+margin_right = 370.0
+margin_bottom = 202.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.0352941, 0, 0, 1 )
+
+[node name="A_3" type="Control" parent="A_2/A_2"]
+margin_top = 206.0
+margin_right = 370.0
+margin_bottom = 292.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A_1" type="VBoxContainer" parent="A_2/A_2/A_3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A_1" parent="A_2/A_2/A_3/A_1" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 370.0
+margin_bottom = 65.0
+size_flags_stretch_ratio = 20.0
+
+[node name="PersianLabel" parent="A_2/A_2/A_3/A_1/A_1" index="1"]
+margin_bottom = 100.0
+valign = 1
+
+[node name="A_2" type="Control" parent="A_2/A_2/A_3/A_1"]
+margin_top = 69.0
+margin_right = 370.0
+margin_bottom = 86.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="Label" type="Label" parent="A_2/A_2/A_3/A_1/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "11/100"
+valign = 1
+
+[node name="C_4" type="ColorRect" parent="A_2/A_2"]
+margin_top = 296.0
+margin_right = 370.0
+margin_bottom = 301.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.0352941, 0, 0, 1 )
+
+[node name="A_4" type="Control" parent="A_2/A_2"]
+margin_top = 305.0
+margin_right = 370.0
+margin_bottom = 391.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A_1" type="VBoxContainer" parent="A_2/A_2/A_4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A_1" parent="A_2/A_2/A_4/A_1" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 370.0
+margin_bottom = 65.0
+size_flags_stretch_ratio = 20.0
+
+[node name="PersianLabel" parent="A_2/A_2/A_4/A_1/A_1" index="1"]
+margin_bottom = 100.0
+valign = 1
+
+[node name="A_2" type="Control" parent="A_2/A_2/A_4/A_1"]
+margin_top = 69.0
+margin_right = 370.0
+margin_bottom = 86.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="Label" type="Label" parent="A_2/A_2/A_4/A_1/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "11/100"
+valign = 1
+
+[node name="C_5" type="ColorRect" parent="A_2/A_2"]
+margin_top = 395.0
+margin_right = 370.0
+margin_bottom = 400.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color( 0.0352941, 0, 0, 1 )
+
+[editable path="A_2/A_2/A_1/A_1/A_1"]
+[editable path="A_2/A_2/A_2/A_1/A_1"]
+[editable path="A_2/A_2/A_3/A_1/A_1"]
+[editable path="A_2/A_2/A_4/A_1/A_1"]

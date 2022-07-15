@@ -1,0 +1,35 @@
+[gd_scene format=2]
+
+[node name="UI_11_Page_Border" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="ColorRect" parent="A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_top = 2.0
+margin_right = -2.0
+margin_bottom = -2.0
+color = Color( 0.0156863, 0, 0, 1 )
+
+[node name="A1" type="ColorRect" parent="A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 4.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="B1" type="ColorRect" parent="A1/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 3.0
+margin_top = 3.0
+margin_right = -3.0
+margin_bottom = -3.0
+color = Color( 0.298039, 0.298039, 0.298039, 1 )

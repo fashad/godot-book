@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://1_UI/UI_1_Page_Line_Char/UI_1_Show_Page/UI_1_Show_Page.tscn" type="PackedScene" id=1]
+[ext_resource path="res://1_UI/UI_4_Toush/UI_4_Toush.gd" type="Script" id=2]
+[ext_resource path="res://1_UI/UI_7_Action_Bar/UI_7_Action_Bar.tscn" type="PackedScene" id=3]
+[ext_resource path="res://1_UI/UI_6_Settings/UI_6_Settings.tscn" type="PackedScene" id=4]
+[ext_resource path="res://1_UI/UI_9_Taskber/UI_9_Taskber.tscn" type="PackedScene" id=6]
+
+[node name="UI_4_Toush" type="Node2D"]
+
+[node name="UI_1_Show_Page" parent="." instance=ExtResource( 1 )]
+
+[node name="A" type="CanvasLayer" parent="."]
+
+[node name="UI_9_Taskber" parent="A" instance=ExtResource( 6 )]
+position = Vector2( 0, 585 )
+
+[node name="UI_7_Action_Bar" parent="A" instance=ExtResource( 3 )]
+visible = false
+
+[node name="UI_6_Settings" parent="A" instance=ExtResource( 4 )]
+visible = false
+
+[node name="UI_Toush" type="Node2D" parent="A"]
+script = ExtResource( 2 )
+
+[connection signal="i_HSlider" from="UI_1_Show_Page" to="A/UI_9_Taskber" method="_on_UI_1_Show_Page_i_HSlider"]
+[connection signal="value_changed" from="A/UI_9_Taskber/A1/HSlider" to="UI_1_Show_Page" method="_on_HSlider_value_changed"]
+[connection signal="pressed" from="A/UI_7_Action_Bar/A1/A1/A2/A1/A3/Button_3" to="A/UI_Toush" method="UI_8_Settings_show"]
+[connection signal="pressed" from="A/UI_7_Action_Bar/A1/A1/A2/A1/A4/Button_4" to="A/UI_Toush" method="Button_back_Ativity"]
+[connection signal="Show_Page_text" from="A/UI_6_Settings" to="UI_1_Show_Page" method="Settings_Show_Page_text"]
+[connection signal="i_Style_View" from="A/UI_6_Settings" to="UI_1_Show_Page" method="set_Color_Style_View"]
+[connection signal="zoom_Camer" from="A/UI_6_Settings" to="UI_1_Show_Page/A/A2/S_1/Camera2D" method="_on_UI_6_Settings_zoom_Camer"]
+[connection signal="Back_pressed" from="A/UI_Toush" to="UI_1_Show_Page" method="_on_UI_Toush_Back_pressed"]
+[connection signal="Next_pressed" from="A/UI_Toush" to="UI_1_Show_Page" method="_on_UI_Toush_Next_pressed"]
+
+[editable path="UI_1_Show_Page"]
+[editable path="UI_1_Show_Page/A/A2/S_1"]
+[editable path="A/UI_9_Taskber"]
+[editable path="A/UI_7_Action_Bar"]
+[editable path="A/UI_6_Settings"]

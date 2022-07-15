@@ -1,0 +1,673 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://9_My_assets/A_8.png" type="Texture" id=1]
+[ext_resource path="res://9_My_assets/A_4.png" type="Texture" id=2]
+[ext_resource path="res://9_My_assets/A_10.png" type="Texture" id=3]
+[ext_resource path="res://9_My_assets/A_9.png" type="Texture" id=4]
+[ext_resource path="res://9_My_assets/A_25.png" type="Texture" id=5]
+[ext_resource path="res://9_My_assets/A_11.png" type="Texture" id=6]
+[ext_resource path="res://9_My_assets/A_12.png" type="Texture" id=7]
+[ext_resource path="res://9_My_assets/A_14.png" type="Texture" id=8]
+[ext_resource path="res://9_My_assets/A_19.png" type="Texture" id=9]
+[ext_resource path="res://9_My_assets/A_17.png" type="Texture" id=10]
+[ext_resource path="res://9_My_assets/A_16.png" type="Texture" id=11]
+[ext_resource path="res://9_My_assets/A_13.png" type="Texture" id=12]
+[ext_resource path="res://9_My_assets/A_20.png" type="Texture" id=13]
+[ext_resource path="res://9_My_assets/A_15.png" type="Texture" id=14]
+[ext_resource path="res://9_My_assets/A_21.png" type="Texture" id=15]
+[ext_resource path="res://9_My_assets/A_22.png" type="Texture" id=16]
+[ext_resource path="res://2_Fonts/tahoma.ttf" type="DynamicFontData" id=17]
+[ext_resource path="res://9_My_assets/A_17.1.png" type="Texture" id=18]
+[ext_resource path="res://9_My_assets/A_24.png" type="Texture" id=19]
+[ext_resource path="res://9_My_assets/A_26.png" type="Texture" id=20]
+[ext_resource path="res://1_UI/UI_6_Settings/UI_6_Settings.gd" type="Script" id=21]
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 17 )
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 17 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 17 )
+
+[node name="UI_6_Settings" type="Node2D"]
+script = ExtResource( 21 )
+
+[node name="A1" type="Control" parent="."]
+margin_right = 370.0
+margin_bottom = 650.0
+
+[node name="A1" type="VBoxContainer" parent="A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1"]
+margin_right = 370.0
+margin_bottom = 258.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 40.0
+
+[node name="A2" type="Control" parent="A1/A1"]
+margin_top = 262.0
+margin_right = 370.0
+margin_bottom = 650.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 60.0
+
+[node name="ColorRect" type="ColorRect" parent="A1/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.298039, 0.298039, 0.298039, 1 )
+
+[node name="A1" type="VBoxContainer" parent="A1/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1"]
+margin_right = 370.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A1/A1"]
+margin_right = 90.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="Reset_click" type="TextureButton" parent="A1/A1/A2/A1/A1/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -6.0
+texture_normal = ExtResource( 2 )
+
+[node name="sss" type="Control" parent="A1/A1/A2/A1/A1/A1"]
+margin_left = 94.0
+margin_right = 275.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 40.0
+
+[node name="Sprite" type="Sprite" parent="A1/A1/A2/A1/A1/A1/sss"]
+scale = Vector2( 0.957447, 1 )
+texture = ExtResource( 16 )
+centered = false
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A1/A1"]
+margin_left = 279.0
+margin_right = 370.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="Close" type="TextureButton" parent="A1/A1/A2/A1/A1/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 1 )
+
+[node name="Aq" type="Control" parent="A1/A1/A2/A1"]
+margin_top = 70.0
+margin_right = 370.0
+margin_bottom = 136.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A" type="HBoxContainer" parent="A1/A1/A2/A1/Aq"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/Aq/A"]
+margin_right = 244.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/Aq/A/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/Aq/A/A2/A1"]
+margin_right = 35.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="Reducezoom" type="TextureButton" parent="A1/A1/A2/A1/Aq/A/A2/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -11.0
+margin_bottom = -27.0
+texture_normal = ExtResource( 3 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/Aq/A/A2/A1"]
+margin_left = 39.0
+margin_right = 204.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 70.0
+
+[node name="HSlider_Camer" type="HSlider" parent="A1/A1/A2/A1/Aq/A/A2/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -29.0
+max_value = 3.0
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/Aq/A/A2/A1"]
+margin_left = 208.0
+margin_right = 244.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="Zoom_in" type="TextureButton" parent="A1/A1/A2/A1/Aq/A/A2/A1/A3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -11.0
+margin_bottom = -25.0
+texture_normal = ExtResource( 4 )
+
+[node name="www" type="HBoxContainer" parent="A1/A1/A2/A1/Aq/A"]
+margin_left = 248.0
+margin_right = 370.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 10.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/Aq/A/www"]
+margin_right = 40.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 10.0
+
+[node name="Button_Word_ many" type="TextureButton" parent="A1/A1/A2/A1/Aq/A/www/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -20.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+texture_normal = ExtResource( 19 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/Aq/A/www"]
+margin_left = 44.0
+margin_right = 65.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+
+[node name="Label_Word" type="Label" parent="A1/A1/A2/A1/Aq/A/www/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -22.0
+custom_fonts/font = SubResource( 3 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/Aq/A/www"]
+margin_left = 69.0
+margin_right = 109.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 10.0
+
+[node name="Button_word_ lowercase" type="TextureButton" parent="A1/A1/A2/A1/Aq/A/www/A3"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 19 )
+flip_h = true
+
+[node name="Control2" type="Control" parent="A1/A1/A2/A1/Aq/A/www"]
+margin_left = 113.0
+margin_right = 122.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1"]
+margin_top = 140.0
+margin_right = 370.0
+margin_bottom = 206.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/A3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A3/A1"]
+margin_right = 183.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="xxx_1" type="HBoxContainer" parent="A1/A1/A2/A1/A3/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="A_1" type="Control" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1"]
+margin_right = 58.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="but_Down_spacing" type="TextureButton" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1/A_1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 6 )
+
+[node name="A_2" type="Control" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1"]
+margin_left = 62.0
+margin_right = 120.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="Label_LineSpacing" type="Label" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1/A_2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="A_3" type="Control" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1"]
+margin_left = 124.0
+margin_right = 183.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="but_Top_spacing" type="TextureButton" parent="A1/A1/A2/A1/A3/A1/A1/xxx_1/A_3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 7 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A3/A1"]
+margin_left = 187.0
+margin_right = 370.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="B1" type="HBoxContainer" parent="A1/A1/A2/A1/A3/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A3/A1/A2/B1"]
+margin_right = 63.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="Textu_Small" type="TextureButton" parent="A1/A1/A2/A1/A3/A1/A2/B1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 12 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A3/A1/A2/B1"]
+margin_left = 67.0
+margin_right = 115.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="Label_size" type="Label" parent="A1/A1/A2/A1/A3/A1/A2/B1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 2 )
+text = "20"
+align = 1
+valign = 1
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/A3/A1/A2/B1"]
+margin_left = 119.0
+margin_right = 183.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="Textu_big" type="TextureButton" parent="A1/A1/A2/A1/A3/A1/A2/B1/A3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 8 )
+
+[node name="A4" type="Control" parent="A1/A1/A2/A1"]
+margin_top = 210.0
+margin_right = 370.0
+margin_bottom = 310.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 30.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/A4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A4/A1"]
+margin_right = 183.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 50.0
+
+[node name="A1" type="VBoxContainer" parent="A1/A1/A2/A1/A4/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1"]
+margin_right = 183.0
+margin_bottom = 41.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="Sprite" type="Sprite" parent="A1/A1/A2/A1/A4/A1/A1/A1/A2"]
+texture = ExtResource( 5 )
+centered = false
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1"]
+margin_top = 45.0
+margin_right = 183.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="tt1" type="HBoxContainer" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Control" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1"]
+margin_right = 7.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1"]
+margin_left = 11.0
+margin_right = 49.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 10.0
+
+[node name="Button_style_1" type="TextureButton" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+texture_normal = ExtResource( 19 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1"]
+margin_left = 53.0
+margin_right = 91.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 10.0
+
+[node name="Label_Style" type="Label" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 3 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1"]
+margin_left = 95.0
+margin_right = 171.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="Button_style_2" type="TextureButton" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1/A3"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 19 )
+flip_h = true
+
+[node name="Control2" type="Control" parent="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1"]
+margin_left = 175.0
+margin_right = 183.0
+margin_bottom = 55.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A4/A1"]
+margin_left = 187.0
+margin_right = 370.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 50.0
+
+[node name="A1" type="VBoxContainer" parent="A1/A1/A2/A1/A4/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Control" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1"]
+margin_right = 183.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 30.0
+
+[node name="Sprite" type="Sprite" parent="A1/A1/A2/A1/A4/A1/A2/A1/Control"]
+texture = ExtResource( 20 )
+centered = false
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1"]
+margin_top = 52.0
+margin_right = 183.0
+margin_bottom = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 30.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A4" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1"]
+margin_right = 32.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1"]
+margin_left = 36.0
+margin_right = 89.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="pra_1" type="TextureButton" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 14 )
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1"]
+margin_left = 93.0
+margin_right = 146.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="pra_2" type="TextureButton" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1/A3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 11 )
+
+[node name="A5" type="Control" parent="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1"]
+margin_left = 150.0
+margin_right = 183.0
+margin_bottom = 48.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 15.0
+
+[node name="A5" type="Control" parent="A1/A1/A2/A1"]
+margin_top = 314.0
+margin_right = 370.0
+margin_bottom = 380.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 20.0
+
+[node name="A1" type="HBoxContainer" parent="A1/A1/A2/A1/A5"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A5/A1"]
+margin_right = 219.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 60.0
+
+[node name="BT1" type="HBoxContainer" parent="A1/A1/A2/A1/A5/A1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Control" type="Control" parent="A1/A1/A2/A1/A5/A1/A1/BT1"]
+margin_right = 3.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 2.0
+
+[node name="A1" type="Control" parent="A1/A1/A2/A1/A5/A1/A1/BT1"]
+margin_left = 7.0
+margin_right = 57.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="A_colr_defalt" type="TextureButton" parent="A1/A1/A2/A1/A5/A1/A1/BT1/A1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 10 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A5/A1/A1/BT1"]
+margin_left = 61.0
+margin_right = 111.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="A_colr_White" type="TextureButton" parent="A1/A1/A2/A1/A5/A1/A1/BT1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 18 )
+
+[node name="A3" type="Control" parent="A1/A1/A2/A1/A5/A1/A1/BT1"]
+margin_left = 115.0
+margin_right = 165.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="A_colr_Black" type="TextureButton" parent="A1/A1/A2/A1/A5/A1/A1/BT1/A3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 9 )
+
+[node name="A4" type="Control" parent="A1/A1/A2/A1/A5/A1/A1/BT1"]
+margin_left = 169.0
+margin_right = 219.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 25.0
+
+[node name="A_colr_yellow" type="TextureButton" parent="A1/A1/A2/A1/A5/A1/A1/BT1/A4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture_normal = ExtResource( 13 )
+
+[node name="A2" type="Control" parent="A1/A1/A2/A1/A5/A1"]
+margin_left = 223.0
+margin_right = 370.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 40.0
+
+[node name="Control" type="Control" parent="A1/A1/A2/A1/A5/A1/A2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Sprite" type="Sprite" parent="A1/A1/A2/A1/A5/A1/A2/Control"]
+texture = ExtResource( 15 )
+centered = false
+
+[node name="A6" type="Control" parent="A1/A1/A2/A1"]
+margin_top = 384.0
+margin_right = 370.0
+margin_bottom = 388.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[connection signal="pressed" from="A1/A1/A2/A1/A1/A1/A1/Close" to="." method="Button_Close"]
+[connection signal="pressed" from="A1/A1/A2/A1/Aq/A/A2/A1/A1/Reducezoom" to="." method="_on_Reducezoom_pressed"]
+[connection signal="value_changed" from="A1/A1/A2/A1/Aq/A/A2/A1/A2/HSlider_Camer" to="." method="_on_HSlider_Camer_value_changed"]
+[connection signal="pressed" from="A1/A1/A2/A1/Aq/A/A2/A1/A3/Zoom_in" to="." method="_on_Zoom_in_pressed"]
+[connection signal="pressed" from="A1/A1/A2/A1/Aq/A/www/A1/Button_Word_ many" to="." method="Button_Word_many"]
+[connection signal="pressed" from="A1/A1/A2/A1/Aq/A/www/A3/Button_word_ lowercase" to="." method="Button_word_lowercase"]
+[connection signal="pressed" from="A1/A1/A2/A1/A3/A1/A1/xxx_1/A_1/but_Down_spacing" to="." method="Button_Font_Line_Down"]
+[connection signal="pressed" from="A1/A1/A2/A1/A3/A1/A1/xxx_1/A_3/but_Top_spacing" to="." method="Button_Font_Line_Top"]
+[connection signal="pressed" from="A1/A1/A2/A1/A3/A1/A2/B1/A1/Textu_Small" to="." method="Button_Font_Small"]
+[connection signal="pressed" from="A1/A1/A2/A1/A3/A1/A2/B1/A3/Textu_big" to="." method="Button_Font_big"]
+[connection signal="pressed" from="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1/A1/Button_style_1" to="." method="Button_Font_Style_2"]
+[connection signal="pressed" from="A1/A1/A2/A1/A4/A1/A1/A1/A1/tt1/A3/Button_style_2" to="." method="Button_Font_Style_1"]
+[connection signal="pressed" from="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1/A2/pra_1" to="." method="Button_The_whole_line"]
+[connection signal="pressed" from="A1/A1/A2/A1/A4/A1/A2/A1/A2/A1/A3/pra_2" to="." method="Button_Assumption"]
+[connection signal="pressed" from="A1/A1/A2/A1/A5/A1/A1/BT1/A1/A_colr_defalt" to="." method="_on_A_colr_defalt_pressed"]
+[connection signal="pressed" from="A1/A1/A2/A1/A5/A1/A1/BT1/A2/A_colr_White" to="." method="_on_A_colr_White_pressed"]
+[connection signal="pressed" from="A1/A1/A2/A1/A5/A1/A1/BT1/A3/A_colr_Black" to="." method="_on_A_colr_Black_pressed"]
+[connection signal="pressed" from="A1/A1/A2/A1/A5/A1/A1/BT1/A4/A_colr_yellow" to="." method="_on_A_colr_yellow_pressed"]

@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://1_UI/UI_1_5_search/show_exit_text/Show.tscn" type="PackedScene" id=1]
+[ext_resource path="res://1_UI/UI_1_5_search/search/UI_1_5_search.gd" type="Script" id=2]
+[ext_resource path="res://1_UI/UI_1_1_Character_line_page/UI_1_Action_Bar/UI_1_1.tscn" type="PackedScene" id=3]
+[ext_resource path="res://9_My_assets/A_27.png" type="Texture" id=4]
+
+[node name="UI_1_5_search" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="A_1" type="Control" parent="."]
+margin_right = 370.0
+margin_bottom = 650.0
+
+[node name="A_2" type="VBoxContainer" parent="A_1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="UI_1_1" parent="A_1/A_2" instance=ExtResource( 3 )]
+
+[node name="Button_3" parent="A_1/A_2/UI_1_1/A1/A1/A2/A1/A3" index="0"]
+visible = false
+
+[node name="Button_ok" type="TextureButton" parent="A_1/A_2/UI_1_1/A1/A1/A2/A1/A3" index="1"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 4 )
+
+[node name="Show" parent="A_1/A_2" instance=ExtResource( 1 )]
+position = Vector2( 0, 45 )
+
+[connection signal="pressed" from="A_1/A_2/UI_1_1/A1/A1/A2/A1/A3/Button_ok" to="." method="_on_Button_ok_pressed"]
+[connection signal="pressed" from="A_1/A_2/UI_1_1/A1/A1/A2/A1/A4/Button_4" to="." method="_on_Button_4_pressed"]
+
+[editable path="A_1/A_2/UI_1_1"]
+[editable path="A_1/A_2/Show"]
+[editable path="A_1/A_2/Show/A_1/A_2/A_2/A_1"]
